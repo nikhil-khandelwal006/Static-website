@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Vesper Libre", serif;
+  color: rgb(207, 19, 107);
+}
+header {
+  height: 100vh;
+  width: 100vw;
+}
+header nav {
+  width: 90%;
+  /* border: 2px solid blue; */
+  margin: 10px auto;
+  text-align: right;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  margin: 2px 10px;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: rgb(207, 19, 107);
+  letter-spacing: 1px;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+.strapline-container {
+  height: 85%;
+  width: 90%;
+  border: 2px solid rgb(207, 19, 107);
+  margin: auto auto;
+  text-align: center;
+  background-image: url(img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-strapline {
+  color: rgb(207, 19, 107);
+  font-size: 8em;
+  text-transform: uppercase;
+  margin: 50px 0px;
+  font-family: "Poppins", sans-serif;
+}
+.secondary-strapline {
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(207, 19, 107);
+  font-family: "Poppins", sans-serif;
+  font-size: 2.3em;
+  /* margin-bottom: 20px; */
+}
+.about-section {
+  height: 90vh;
+  width: 100vw;
+}
+.about-container {
+  /* border: 2px solid blue; */
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+}
+.left-box {
+  /* border: 2px solid blue; */
+  /* height: 200px; */
+  width: 45%;
+  text-align: justify;
+  line-height: 220%;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.right-box {
+  /* border: 2px solid blue; */
+  /* height: 200px; */
+  width: 40%;
+  margin-left: 6%;
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+}
+.grid-image-one {
+  width: 50%;
+  height: 240px;
+  /* border: 2px solid black; */
+}
+#first {
+  background-image: url(img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#second {
+  background-image: url(img2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#third {
+  background-image: url(img3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#four {
+  background-image: url(img4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.image-container {
+  width: 100%;
+}
+.row-one,
+.row-two,
+.row-three {
+  width: 90%;
+  /* border: 2px solid blue; */
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.grid-item {
+  height: 310px;
+  width: 30%;
+  margin: 1%;
+
+  /* border: 2px solid black; */
+}
+.grid-item:hover {
+  opacity: 0.8;
+}
+#one {
+  background-image: url(img10.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#two {
+  background-image: url(img11.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#three {
+  background-image: url(img12.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#fourth {
+  background-image: url(img13.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#five {
+  background-image: url(img14.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#six {
+  background-image: url(img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#seven {
+  background-image: url(img15.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#eight {
+  background-image: url(img16.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#nine {
+  background-image: url(img13.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.store-section {
+  width: 100vw;
+}
+.store-container {
+  width: 95%;
+  /* border:2px solid blue; */
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.store-div {
+  width: 30%;
+  height: 200px;
+  /* border: 2px solid green; */
+  margin: 20px;
+  text-align: center;
+}
+h4 {
+  font-size: 150%;
+}
+.contact-section {
+  width: 100vw;
+  height: 50vh;
+  background-color: rgb(207, 19, 107);
+  text-align: center;
+  color: whitesmoke;
+}
+.contact-title {
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 220%;
+}
+.email {
+  color: whitesmoke;
+  font-size: 130%;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px auto;
+  width: 40vw;
+}
+.social-media-icon {
+  margin: 0 7px;
+}
